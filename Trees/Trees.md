@@ -1,4 +1,7 @@
-# Tree 
+# **Tree** 
+
+
+* [Home](../README.md)
 
 A tree is a finite set of one or more nodes such that,there is a specially designated node called a root. The remaining nodes are partitioned into n>=0 disjoint sets t1,t2,...tn where each of these sets is a tree.
 

@@ -1,5 +1,8 @@
 # Linked List
 
+* [Home](../README.md)
+
+
 It is an ordered collection of finite,homogenous data elements called nodes where the linear order is maintained by means of links or pointers.
 
 Each node consists of two parts:
