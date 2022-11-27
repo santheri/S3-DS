@@ -10,4 +10,6 @@ This is  a repository which has the basic Data Structure that is  implemented in
 
 ## **Implementation**
 
-* [stack_using_array](./stack.c)
+* [Stack_using_array](./Programs/stack.c)
+* [Queue_using_Array](./Programs/queue.c)
+* [Circular_Queue_using_array](./Programs/circular_queue.c)
