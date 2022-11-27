@@ -47,7 +47,7 @@ An important point to consider is that the pointer should be initialized properl
 
 A singly linked list is a unidirectional linked list. So, you can only traverse it in one direction, i.e., from head node to tail node.Reverase traversal is not possible
 
-![Single Linked list](images\single.png)
+![Single Linked list](./images/single.png)
 
 
 1. Doubly Linked List
@@ -55,21 +55,21 @@ A singly linked list is a unidirectional linked list. So, you can only traverse 
 
 A doubly linked list is a bi-directional linked list. So, you can traverse it in both directions. Unlike singly linked lists, its nodes contain one extra pointer called the previous pointer. This pointer points to the previous node.
 
-![Doubly Linked list](images\double.png)
+![Doubly Linked list](./images/double.png)
 
 3. Circular Linked List
 ***
 
 Unlike a traditional linked list, a circular linked list has no beginning or end – it is essentially a ring of nodes.A circular Linked list is a unidirectional linked list. So, you can traverse it in only one direction
 
-![Doubly Linked list](images\circular.png)
+![Doubly Linked list](./images/circular.png)
 
 1. Circular Double Linked List
 ***
   
 A circular doubly linked list is a mixture of a doubly linked list and a circular linked list. Like the doubly linked list, it has an extra pointer called the previous pointer, and similar to the circular linked list, its last node points at the head node. This type of linked list is the bi-directional list. So, you can traverse it in both directions.
 
-![Doubly Linked list](images\circular_double.png)
+![Doubly Linked list](./images/circular_double.png)
 
 
 ## **Dynamic Memory Allocation**
@@ -92,7 +92,7 @@ prt1=(struct node*)malloc(sizeof(struct node))
 The new node is always added before the head of the given Linked List. And newly added node becomes the new head of the Linked List. For example, if the given Linked List is 10->15->20->25 and we add an item 5 at the front, then the Linked List becomes 5->10->15->20->25.
 
 
-![Insertion at the beginning](images\insert_beg.png)
+![Insertion at the beginning](./images/insert_beg.png)
 
 
 ```c
@@ -119,7 +119,7 @@ void insert_beg()
 The new node is always added after the last node of the given Linked List. For example if the given Linked List is 5->10->15->20->25 and we add an item 30 at the end, then the Linked List becomes 5->10->15->20->25->30. 
 Since a Linked List is typically represented by the head of it, we have to traverse the list till the end and then change the next to last node to a new node.
 
-![Insertion at the end](images\insert_end.png)
+![Insertion at the end](./images/insert_end.png)
 
 ```c
 void insert_end()
@@ -154,7 +154,7 @@ Assign the data to the new node
 And then make the next of new node as the next of previous node. 
 Finally, move the next of the previous node as a new node.
 
-![Insertion at the given position](images\insert_pos.png)
+![Insertion at the given position](./images/insert_pos.png)
 
 ```c
 void insert_pos()
@@ -174,3 +174,6 @@ void insert_pos()
     temp->next=x;
 }
 ```
+
+
+
