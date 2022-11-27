@@ -50,6 +50,6 @@ Length of the path from root to that node.
 
 
 
-![Trees](images\tree_pic.jpg)
+![Trees](./images/tree_pic.jpg)
 
 
