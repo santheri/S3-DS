@@ -19,3 +19,5 @@ This is  a repository which has the basic Data Structure that is  implemented in
 * [LinkedList](./Programs/linked_list.c)
 * [PostFix_Evaluation](./Programs/postfix_evaluation.c)
 * [Infix-to-Postfix](./Programs/Infix_to_postfix.c)
+* [Stack_using_Linkedlist](./Programs/stack_linkedlist.c)
+* [Queue_using_linkedlist](./Programs/queue_linkedlist.c)
