@@ -1,6 +1,6 @@
-# **S3-DS**
+# **S3-Data Structure Lab-KTU**
 
-This is  a repository which has the basic Data Structure that is  implemented in C 
+This is  a repository which has the basic Data Structures that is  implemented in C 
 
 ## **Notes**
 
