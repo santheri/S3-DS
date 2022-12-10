@@ -21,3 +21,6 @@ This is  a repository which has the basic Data Structure that is  implemented in
 * [Infix-to-Postfix](./Programs/Infix_to_postfix.c)
 * [Stack_using_Linkedlist](./Programs/stack_linkedlist.c)
 * [Queue_using_linkedlist](./Programs/queue_linkedlist.c)
+* [Binary_Search](./Programs/Binary_search.c)
+* [Binary_Search_Tree](./Programs/Binary_search_tree.c)
+* [Polynimial_Addition_using_LinkedList](./Programs/Polynimial_addition_ll.c)

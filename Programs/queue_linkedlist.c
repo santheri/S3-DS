@@ -58,7 +58,7 @@ void dequeue()
 {
     if(front==NULL)
     printf("queue is empty");
-    else if(front=rear)
+    else if(front==rear)
     {
         temp=front;
         printf("the deleted element is %d ",front->data);
